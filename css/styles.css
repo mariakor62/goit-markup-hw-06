@@ -102,17 +102,19 @@ img {
   position: relative;
 }
 .item .current::after {
-content: "";
-display: flex;
-justify-content: center;
-position: absolute;
-width: 100%;
-top: 76px;
-left: 0;
-background-color: var(--accent-color);
-border: 2px solid;
-border-radius: 4px;
+  position: absolute;
+  content: "";
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  top: 76px;
+  left: 0;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: var(--accent-color);
 }
+
 .header-right {
   display: flex;
   justify-content: center;
@@ -125,25 +127,32 @@ border-radius: 4px;
 .contact {
   display: flex;
   justify-content: center;
-} 
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em; 
+}
 
 .contact-link {
   display: flex;
   align-items: center;
   height: 12px; 
   color: #757575;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .contact-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  fill: #757575;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .contact-link:hover,
-.contact-link:focus {
-  cursor: pointer;
+.contact-link:focus { 
+  cursor: pointer; 
   color: #2196f3;
 }
 .contact-link:hover .contact-icon,
@@ -151,18 +160,12 @@ border-radius: 4px;
   cursor: pointer;
   fill: #2196f3;
 }
-
-.smartphone,
-.envelope,
-.envelope-portfolio {
-  fill: #757575;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
 .header-list .link.current {
   color:  #2196f3;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list .link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -187,12 +190,7 @@ border-radius: 4px;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em; 
-}
+
 /* Webstudio logo */
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -287,9 +285,7 @@ border-radius: 4px;
 
 }
 .button-text {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -380,16 +376,14 @@ border-radius: 4px;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 70px;
+  padding: 27px 0;
   background-color: #2F303A;
   opacity: 0.8;
 }
 .image-title {
   display: flex;
   justify-content: center;
-  padding-top: 27px;
-
-  font-family: 'Roboto';
+  
   font-weight: 700;
   font-size: 14px;
   font-style: normal;
@@ -500,7 +494,8 @@ border-radius: 4px;
 }
 .team-list > .member {
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -569,10 +564,9 @@ border-radius: 4px;
 .footer-link {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-link .instagram {
   fill: #ffffff;
 }
@@ -658,7 +652,6 @@ border-radius: 4px;
   border-radius: 4px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -824,10 +817,9 @@ border-radius: 4px;
   border: 1px solid #AFB1B8;
   box-shadow: 0px, 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .customer-link:hover .customer-icon,
 .customer-link:focus .customer-icon {
   fill: #2196f3;
@@ -835,8 +827,8 @@ border-radius: 4px;
 .customer-link:hover,
 .customer-link:focus {
  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
+ }
+
 .customer-icon {
   fill: #AFB1B8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -870,21 +862,32 @@ border-radius: 4px;
   width: 530px;
   border-radius: 4px;
   box-shadow: 0px, 4px rgba(0, 0, 0, 0.25);
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
+
+.modal-icon {
+  fill: #000000;
+}
+
 .button-close {
   position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0, 1);
-  border-color: #757575;
-  padding-top: 8px;
-  padding-right: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
 }
+
 
  
   
