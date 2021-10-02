@@ -606,13 +606,12 @@ img {
   color: #2196f3;
 }
 .text-title {
-  font-family: 'Roboto';
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   text-align: left;
   vertical-align: top;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.03em;
   color: #FFFFFF;
   margin-bottom: 20px;
 }
@@ -622,7 +621,18 @@ img {
   background-color:#2196f3;
   fill: #ffffff;
 }
+.text-sign {
+  
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
 
+}
 <!--Portfolio-->
 /* Projects section */
 
@@ -789,7 +799,7 @@ img {
 } 
 /* Постоянные клиенты- */
 .customers-title {
-  font-family: Roboto;
+  
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -888,6 +898,54 @@ img {
   margin-right: 8px;
 }
 
+.text-sign {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
 
- 
+}
+ .signup {
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   
   
+  font-style: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: center;
+  letter-spacing: 0.06em;
+  background-color: ;
+  color: #FFFFFF;
+}
+.button-submit {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 10px 28px;
+  cursor: pointer;
+  border: 1px solid #2F303A;
+  border-radius: 4px;
+  background-color: #2196F3;
+  font: inherit;
+  color: #ffffff;
+
+}
+.send-icon {
+  outline: 1px solid red;
+}
+.button-submit::after {
+  position: absolute;
+  top: ;
+  right: ;
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+  width: 24px;
+  height: 24px;
+}
+
