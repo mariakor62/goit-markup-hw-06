@@ -907,10 +907,16 @@ img {
   letter-spacing: 0.03em;
 
 }
+.footer-form {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 93px;
+  /* width: 206px; */
+  /* height: 80px; */
+  outline: 1px solid red;
+}
  .signup {
-   border: 1px solid rgba(255, 255, 255, 0.3);
-   
-  
   font-style: bold;
   font-size: 16px;
   line-height: 30px;
@@ -919,6 +925,7 @@ img {
   letter-spacing: 0.06em;
   background-color: ;
   color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .button-submit {
   position: relative;
@@ -936,6 +943,7 @@ img {
 
 }
 .send-icon {
+  fill: #FFFFFF;
   outline: 1px solid red;
 }
 .button-submit::after {
