@@ -923,10 +923,6 @@ img {
   background-color: #ffffff;
 }
 
-.modal-icon {
-  fill: #000000;
-}
-
 .button-close {
   position: absolute;
   display: flex;
@@ -947,15 +943,14 @@ img {
 
 }
 .button-close {
-  fill: #2196F3;
+  fill: #000000;
 }
 
 .button-close:hover,
 .button-close:focus {
   fill: #2196F3;
-  border-color: #2196F3;
-
 }
+
 .button-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1);
