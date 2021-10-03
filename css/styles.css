@@ -946,10 +946,12 @@ img {
   margin-right: 8px;
 
 }
+.button-close {
+  fill: #2196F3;
+}
 .button-close:hover,
 .button-close:focus {
   fill: #2196F3;
-  color: #2196F3;
   border-color: #2196F3;
 
 }
