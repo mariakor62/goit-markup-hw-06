@@ -949,6 +949,7 @@ img {
 .button-close:hover,
 .button-close:focus {
   fill: #2196F3;
+  color: #2196F3;
   border-color: #2196F3;
 
 }
@@ -958,9 +959,6 @@ img {
   margin-right: auto;
   margin-bottom: 20px;
   padding: 10px;
-
-
-
 }
 .form-title {
   
@@ -990,6 +988,12 @@ img {
   position: absolute;
   top: 50%;
   left: 12px;
+}
+.form-icon:hover,
+.form-icon:focus {
+  cursor: pointer;
+  fill: #2196F3;
+  border-color: #2196F3;
 }
 .modal-label {
   font-style: normal;
