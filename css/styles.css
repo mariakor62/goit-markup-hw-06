@@ -989,6 +989,9 @@ img {
   top: 50%;
   left: 12px;
 }
+.form-icon .current {
+  fill: #2196F3;
+}
 .form-icon:hover,
 .form-icon:focus {
   cursor: pointer;
