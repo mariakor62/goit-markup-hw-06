@@ -974,6 +974,7 @@ img {
   padding: 40px 40px 0 40px;
   
 }
+
 .email {
   background-color: white;
 }
@@ -1076,7 +1077,11 @@ img {
 }
 .email {
   fill: #000000;
-  
+  }
+.checked {
+  text-decoration: underline;
+  color: #2196f3;
+
 }
 .comments {
   resize: none;
