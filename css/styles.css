@@ -635,6 +635,7 @@ img {
   margin-bottom: 20px;
 }
 .email-box {
+  border-color: #2F303A;
   border-style: none;
   background-color: #2F303A;
 }
@@ -659,7 +660,12 @@ img {
   padding: 15px;
  
 }
-
+.text-email:hover,
+.text-email:focus {
+  border-color: #2196f3;
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .button-submit {
   font-weight: bold;
   width: 200px;
@@ -955,6 +961,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* Modal Form */
 
 .modal-form {
   width: 448px;
@@ -980,20 +987,24 @@ img {
   background-color: white;
 }
 .modal-field {
+  position: relative;
   display: flex;
   flex-direction: column;
   
   margin-bottom: 10px;
 }
-.modal-field {
-  position: relative;
-}
+
 .icon-mode {
   position: absolute;
   top: 50%;
   left: 12px;
 }
+.form-input:focus-within {
+  border-color: #2196f3;
+}
+
 .form-icon .current {
+  position: absolute;
   fill: #2196F3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1089,6 +1100,7 @@ img {
 }
 .comments {
   resize: none;
+  padding: 8px;
   border-radius: 4px;
 }
 .comments::placeholder {
