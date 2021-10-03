@@ -998,6 +998,11 @@ img {
   fill: #2196F3;
   border-color: #2196F3;
 }
+.form-input:hover,
+.form-input:focus {
+  cursor: pointer;
+  border-color: #2196F3;
+}
 .modal-label {
   font-style: normal;
   font-weight: normal;
