@@ -965,6 +965,9 @@ img {
   padding: 40px 40px 0 40px;
   
 }
+.email {
+  background-color: white;
+}
 .modal-field {
   display: flex;
   flex-direction: column;
