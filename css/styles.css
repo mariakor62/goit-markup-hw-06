@@ -971,6 +971,7 @@ img {
 .modal-field {
   display: flex;
   flex-direction: column;
+  
   margin-bottom: 10px;
 }
 .modal-field {
@@ -1042,10 +1043,14 @@ img {
   padding: 6px 10px;
   border: 1px solid #757575;
   border-radius: 3px;
-  width: 418px;
+  width: 428px;
 }
-.form-icon {
-  outline: 1px solid red;
+.email {
+  fill: #000000;
+  
+}
+.comments {
+  resize: none;
 }
 .comments::placeholder {
   font-style: normal;
