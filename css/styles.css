@@ -988,9 +988,7 @@ img {
   left: 12px;
  
 }
-.icon-mode {
-  outline: 1px solid red;
-}
+
 .modal-field {
   position: relative;
   display: flex;
@@ -998,7 +996,7 @@ img {
   margin-bottom: 10px;
 }
 
-.form-input:focus-within + .icon-mode {
+.form-input:focus-within + .form-icon {
   border-color: #2196F3;
   fill: #2196F3;
 }
