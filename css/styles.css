@@ -996,12 +996,11 @@ img {
   margin-bottom: 10px;
 }
 
-.form-input:focus-within > .icon-mode {
+.modal-field:focus-within > .icon-mode {
   border-color: #2196F3;
-}
-.form-input:focus-within > .icon-mode {
   fill: #2196F3;
 }
+
 .form-input {
   margin: 0;
   padding: 10px 32px;
