@@ -985,8 +985,7 @@ img {
   position: absolute;
   display: inline-block;
   top: 50%;
-  left: 10px;
-
+  left: 12px;
   outline: 1px solid red;
 }
 
@@ -1006,7 +1005,7 @@ img {
 }
 .form-input {
   margin: 0;
-  padding: 10px;
+  padding: 10px 32px;
   border: 1px solid #757575;
   border-radius: 3px;
   width: 100%;
