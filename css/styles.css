@@ -986,9 +986,11 @@ img {
   display: inline-block;
   top: 50%;
   left: 12px;
+ 
+}
+.icon-mode {
   outline: 1px solid red;
 }
-
 .modal-field {
   position: relative;
   display: flex;
