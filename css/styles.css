@@ -1023,6 +1023,9 @@ img {
   color: #757575;
   
 }
+/* .email { */
+  /* fill: #000000; */
+  /* } */
 .form-button {
   display: flex;
   margin-left: 164px;
@@ -1066,9 +1069,6 @@ img {
   color: #FFFFFF;
 }
 
-.email {
-  fill: #000000;
-  }
 .checked {
   text-decoration: underline;
   color: #2196f3;
