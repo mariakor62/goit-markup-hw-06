@@ -619,9 +619,11 @@ img {
   background-color:#2196f3;
   fill: #ffffff;
 }
-
+/* Subscribe form Footer area*/
 .form-field {
   display: block;
+  justify-content: center;
+  align-items: center;
   width: 570px;
   height: 86px;
   margin-left: 93px;
@@ -635,38 +637,46 @@ img {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
-.email-box {
-  border-color: #2F303A;
-  border-style: none;
-  background-color: #2F303A;
-}
+.email-box::placeholder {
+  display: flex;
+  align-items: center;
 
-.etext {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.03em;
-  margin-left: 10px;
+  margin-right: 10px;
   color: rgba(255, 255, 255, 0.6);
+
 }
 .fields {
   display: flex;
 }
-.text-email {
+.email-box {
+  background-color: #2F303A;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.6);
   width: 358px;
   height: 50px;
+  box-shadow: (0px 4px 4px, rgba(0, 0, 0, 0.25));
   padding: 15px;
- 
+  outline: none;
 }
-.text-email:hover,
-.text-email:focus {
-  border-color: #2196f3;
+
+.email-box:focus {
+  color: white;
+  cursor: none;
+}
+.email-box:hover {
   cursor: pointer;
+  border-color: #2196F3;
+  
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* .email-box::placeholder:focus { */
+  /* border-color: #2196f3; */
+  /* cursor: pointer; */
+  /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/* } */
 .button-submit {
   font-weight: bold;
   width: 200px;
@@ -995,12 +1005,13 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  outline: transparent;
 }
 
-.modal-field:focus-within > .icon-mode {
+.modal-field:focus-within > .icon-mode .form-input {
   border-color: #2196F3;
   fill: #2196F3;
-  outline: transparent;
+  border: none;
 }
 
 .form-input {
@@ -1009,7 +1020,6 @@ img {
   border: 0.3px solid #757575;
   border-radius: 3px;
   width: 100%;
-  
 }
 
 .modal-label {
