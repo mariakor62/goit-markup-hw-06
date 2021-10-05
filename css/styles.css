@@ -1000,6 +1000,7 @@ img {
 .modal-field:focus-within > .icon-mode {
   border-color: #2196F3;
   fill: #2196F3;
+  outline: transparent;
 }
 
 .form-input {
