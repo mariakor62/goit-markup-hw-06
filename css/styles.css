@@ -1012,7 +1012,7 @@ img {
 .modal-field:focus-within > .icon-mode .form-input {
   border-color: #2196F3;
   fill: #2196F3;
-  
+  outline-color: #2196F3;
 }
 
 .form-input {
