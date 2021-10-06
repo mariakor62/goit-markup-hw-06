@@ -997,8 +997,11 @@ img {
   top: 50%;
   left: 12px;
   fill: #000000;
+  outline: 1px solid red;
 }
-
+.icon-mode {
+  /* outline: 1px solid red; */
+}
 .modal-field {
   position: relative;
   display: flex;
@@ -1006,7 +1009,7 @@ img {
   margin-bottom: 10px;
  
 }
-.modal-field  {
+.modal-field .form-input {
   outline-color: #2196f3;
 }
 .modal-field:focus-within > .icon-mode .form-input {
