@@ -1014,7 +1014,7 @@ img {
 .modal-field > .form-input {
   outline-color: #2196f3;
 }
-.modal-field:focus-within >.icon-mode .form-input {
+.modal-field:focus-within >.form-icon .form-input {
   border-color: #2196F3;
   fill: #2196F3;
 }
