@@ -1006,7 +1006,7 @@ img {
   margin-bottom: 10px;
  
 }
-.modal-field .form-input {
+.modal-field  {
   outline-color: #2196f3;
 }
 .modal-field:focus-within > .icon-mode .form-input {
