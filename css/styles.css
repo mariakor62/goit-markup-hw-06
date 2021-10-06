@@ -1006,15 +1006,10 @@ img {
   margin-bottom: 10px;
  
 }
-.form-icon {
-  fill: #2196f3
-}
-
-
 .modal-field > .form-input {
   outline-color: #2196f3;
 }
-.modal-field:focus-within >.form-icon .form-input {
+.modal-field:focus-within > .form-icon .form-input {
   border-color: #2196F3;
   fill: #2196F3;
 }
