@@ -996,9 +996,9 @@ img {
   display: inline-block;
   top: 50%;
   left: 12px;
-  fill: #000000;
-  
+  /* fill: #000000; */
 }
+
 .form-icon {
   fill: #000000;
   cursor: pointer;
@@ -1015,11 +1015,9 @@ img {
   cursor: pointer;
   /* fill: #2196f3; */
 }
-.modal-field:focus-within > .form-icon .form-input {
-  outline-color: #2196F3;
+.modal-field:focus-within > .form-input .form-icon {
   fill: #2196F3;
   border-color: #2196F3;
-  
 }
 .form-input {
   margin: 0;
