@@ -1015,7 +1015,7 @@ img {
   cursor: pointer;
   /* fill: #2196f3; */
 }
-.modal-field:focus-within > .form-input .form-icon {
+.modal-field:focus-within > .form-input {
   fill: #2196F3;
   border-color: #2196F3;
 }
