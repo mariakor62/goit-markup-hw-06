@@ -1002,7 +1002,6 @@ img {
 .form-icon {
   fill: #000000;
   cursor: pointer;
-  outline: 1px solid greenyellow;
  }
 .modal-field {
   position: relative;
@@ -1017,8 +1016,10 @@ img {
   /* fill: #2196f3; */
 }
 .modal-field:focus-within > .form-icon .form-input {
+  outline-color: #2196F3;
   fill: #2196F3;
   border-color: #2196F3;
+  
 }
 .form-input {
   margin: 0;
