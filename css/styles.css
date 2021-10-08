@@ -1002,8 +1002,7 @@ img {
 .form-icon {
   fill: #000000;
   cursor: pointer;
-  outline: 1px solid blue;
-}
+ }
 .modal-field {
   position: relative;
   display: flex;
