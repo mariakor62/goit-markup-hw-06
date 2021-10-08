@@ -1019,6 +1019,10 @@ img {
   fill: #2196F3;
   border-color: #2196F3;
 }
+.form-input:focus-within > .form-icon {
+  fill: #2196F3;
+}
+
 .form-input {
   margin: 0;
   padding: 10px 32px;
