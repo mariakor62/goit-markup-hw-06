@@ -1019,7 +1019,7 @@ img {
   border-color: #2196F3;
   fill: #2196F3;
 }
-.modal-field:focus-within > .icon-mode {
+.modal-field:focus-within > .form-icon {
   fill: #2196f3;
 }
 .form-input {
