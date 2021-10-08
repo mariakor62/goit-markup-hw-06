@@ -1013,7 +1013,6 @@ img {
 .modal-field > .form-input {
   outline-color: #2196f3;
   cursor: pointer;
-  fill: #ffffff;
 }
 .modal-field:focus-within > .form-icon {
   background-color: #188CE8;
