@@ -999,8 +999,8 @@ img {
   fill: #000000;
 }
 
-.form-icon {
-  fill: rgb(0, 0, 0);
+.form-icon:focus {
+  fill:#2196F3;
   cursor: pointer;
  }
 .modal-field {
@@ -1018,9 +1018,6 @@ img {
 .modal-field:focus-within {
   fill: #2196F3;
   border-color: #2196F3;
-}
-.form-icon:focus {
-  fill: rgb(33, 150, 243);
 }
 
 .form-input {
