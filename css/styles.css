@@ -1000,7 +1000,7 @@ img {
 }
 
 .form-icon {
-  fill: #000000;
+  fill: rgb(0, 0, 0);
   cursor: pointer;
  }
 .modal-field {
@@ -1019,7 +1019,7 @@ img {
   fill: #2196F3;
   border-color: #2196F3;
 }
-.form-icon:focus-within {
+.form-icon:focus {
   fill: rgb(33, 150, 243);
 }
 
