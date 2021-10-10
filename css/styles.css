@@ -996,9 +996,12 @@ img {
   display: inline-block;
   top: 50%;
   left: 12px;
-  fill: #2196F3;
 }
 
+.form-icon {
+  fill: #000000;
+  cursor: pointer;
+}
 .form-icon:focus {
   fill:#2196F3;
   cursor: pointer;
@@ -1009,6 +1012,9 @@ img {
   flex-direction: column;
   margin-bottom: 10px;
  
+}
+.icon-mode {
+  fill: red;
 }
 .modal-field > .form-input {
   outline-color: #2196f3;
