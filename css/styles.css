@@ -998,11 +998,6 @@ img {
   left: 12px;
 }
 
-.form-icon {
-  outline: 1px solid #2196f3;
-  fill: #000000;
-  /* cursor: pointer; */
-}
 .modal-field {
   position: relative;
   display: flex;
