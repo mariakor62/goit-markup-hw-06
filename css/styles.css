@@ -1003,10 +1003,6 @@ img {
   fill: #000000;
   /* cursor: pointer; */
 }
-.form-icon {
-  fill:#2196F3;
-  cursor: pointer;
- }
 .modal-field {
   position: relative;
   display: flex;
