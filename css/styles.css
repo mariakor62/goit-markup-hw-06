@@ -1012,7 +1012,7 @@ img {
 }
 .modal-field:focus-within {
   fill: #2196F3;
-  border-color: #2196F3;
+  /* border-color: #2196F3; */
 }
 
 .form-input {
