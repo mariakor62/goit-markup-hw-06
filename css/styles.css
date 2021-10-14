@@ -1001,11 +1001,13 @@ img {
 .modal-field > .form-input {
   outline-color: #2196f3;
   cursor: pointer;
-  
 }
+
 .modal-field:focus-within {
   fill: #2196F3;
+  outline-width: 0.1px;
   border-color: #2196F3;
+  
 }
 
 .form-input {
