@@ -83,10 +83,10 @@ img {
 .page-header__nav {
   display: flex;
   align-items: center;
-  margin-left: 80px;
 }
 .site-nav {
   display: flex;
+  margin-left: 80px;
 }
 .site-nav__link {
   display: block;
